@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getWatchLaterMovies, removeFromWatchLater } from '../utils/localStorage';
+import { getWatchLaterMovies, removeFromWatchLater } from '../Utils/localStorage.js';
 import MovieCard from '../components/MovieCard';
 
 export default function WatchLaterMoviesPage() {
