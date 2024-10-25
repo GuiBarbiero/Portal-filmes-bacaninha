@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getWatchedMovies, removeFromWatched } from '../utils/localStorage';
+import { getWatchedMovies, removeFromWatched } from '../Utils/localStorage.js';
 import MovieCard from '../components/MovieCard';
 
 export default function WatchedMoviesPage() {
