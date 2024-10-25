@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { addToWatchLater, addToWatched, getRecommendedMovies, getWatchedMovies } from "../Utils/localStorage";
+import { addToWatchLater, addToWatched, getRecommendedMovies, getWatchedMovies } from "../Utils/localStorage.js";
 import MovieCard from "../components/MovieCard";
 
 export default function Home() {
