@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { addToWatched, addToWatchLater, removeFromWatched, removeFromWatchLater } from "../utils/localStorage"; 
+import { addToWatched, addToWatchLater, removeFromWatched, removeFromWatchLater } from "../Utils/localStorage.js"; 
 
 export default function MovieDetailPage() {
   const { id } = useParams(); 
